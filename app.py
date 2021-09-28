@@ -29,7 +29,7 @@ if answer == user:
 
         answer = input("Zvol číslo podle toho co mám dělat: ")
 
-        if answer == "1":
+        if answer == "1": # Pokud je odpověď 1
 
             print("Jaký port mám nastavit?")
             port = input() # Určení proměnné "port"
@@ -106,7 +106,7 @@ if answer == user:
             print("Server properities úspěšně vygenerován")
 
 
-        if answer == "2":
+        if answer == "2": # Pokud je odpověď 2
 
             print("[1] Zapnout server.  RAM: 1024MB")
             print("[2] Zapnout server.  RAM: 2048MB")
@@ -120,46 +120,46 @@ if answer == user:
 
             answer = input("Zvol číslo podle toho co mám dělat: ")
 
-            if answer == "1":
+            if answer == "1": # Pokud je odpověď 1
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx1024M -jar server.jar nogui') # Zapsne server s 1024MB RAM
 
-            if answer == "2":
+            if answer == "2": # Pokud je odpověď 2
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx2048M -jar server.jar nogui') # Zapsne server s 2048MB RAM
 
-            if answer == "3":
+            if answer == "3": # Pokud je odpověď 3
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx3072M -jar server.jar nogui') # Zapsne server s 3072MB RAM
 
-            if answer == "4":
+            if answer == "4": # Pokud je odpověď 4
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx4096M -jar server.jar nogui') # Zapsne server s 4096MB RAM
 
-            if answer == "5":
+            if answer == "5": # Pokud je odpověď 5
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx5120M -jar server.jar nogui') # Zapsne server s 5120MB RAM
 
-            if answer == "6":
+            if answer == "6": # Pokud je odpověď 6
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx6144M -jar server.jar nogui') # Zapsne server s 6144MB RAM
 
-            if answer == "7":
+            if answer == "7": # Pokud je odpověď 7
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx7168M -jar server.jar nogui') # Zapsne server s 7168MB RAM
 
-            if answer == "8":
+            if answer == "8": # Pokud je odpověď 8
                 print("Spouštím server")
                 os.system('java -Xms128M -Xmx8192M -jar server.jar nogui') # Zapsne server s 8192MB RAM
 
-            else:
+            else: # Ostatní odpovědi
                print("Bye")
 
-        else:
+        else: # Ostatní odpovědi
             print("Bye")
 
-    else:
+    else: # Ostatní odpovědi
         print("Špatné heslo")
     
-else:
+else: # Ostatní odpovědi
     print("Účet neexistuje")
