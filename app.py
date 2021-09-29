@@ -3,7 +3,7 @@ import os
 #####################################
 heslo = "admin" # zde je heslo účtu
 user = "admin" # zde je jméno účtu
-#####################################
+##################################### 
 
 print("Přihlašte se prosím")
 
