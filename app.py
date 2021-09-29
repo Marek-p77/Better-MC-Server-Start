@@ -17,7 +17,7 @@ if answer == user:
         print("Úspěšně přihlášen") # Pokud je heslo i uživatel správný
 
         print("---------------------------")
-        print("|                         |")
+        print("|                         |") 
         print("|  Minecraft Server APP   |")
         print("|  Version 1.2 by Marek_p |")
         print("|                         |")
