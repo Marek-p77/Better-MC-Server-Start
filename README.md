@@ -15,3 +15,5 @@ Dokončené  | Nedokončené
 ### ⚒️ Použití
 
 Soubor `app.py` dejte do složky, kde máte spouštěcí soubor serveru. V té složce otevřte příkazový řádek a napište příkaz `py app.py`. Je třeba mít nainstalovaný Python!
+
+📞Discord podpora: -> https://dsc.gg/galaxycode <-
