@@ -163,3 +163,5 @@ if answer == user:
     
 else: # Ostatní odpovědi
     print("Účet neexistuje")
+   
+# The End :)
