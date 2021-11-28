@@ -1,4 +1,4 @@
-import os
+import os #import modulu pro shell commandy
 
 #####################################
 heslo = "admin" # zde je heslo účtu
